@@ -61,7 +61,7 @@ Pass?       Revise?
 - **OpenAI GPT-Image-1** — promotional image generation
 - **GPT-4.1** — image quality analysis
 
-## Setup
+## Setup   
 
 ### 1. Import the workflow
 In n8n, go to **Workflows → Import** and upload `workflow.json`.
