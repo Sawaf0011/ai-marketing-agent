@@ -60,7 +60,6 @@ Pass?       Revise?
 - **OpenAI GPT-4o-mini** — content generation and judging
 - **OpenAI GPT-Image-1** — promotional image generation
 - **GPT-4.1** — image quality analysis
-- **SMTP** — email delivery
 
 ## Setup
 
@@ -73,9 +72,6 @@ You need two credentials configured in n8n:
 | Credential | Used by |
 |---|---|
 | OpenAI API key | All AI agent nodes |
-| SMTP account | Email Campaign Report node |
-
-For Gmail SMTP: host `smtp.gmail.com`, port `465`, SSL on. Use a [Google App Password](https://myaccount.google.com/apppasswords) — not your regular password.
 
 ### 3. Install the document converter community node
 This workflow uses `@mazix/n8n-nodes-converter-documents` to extract text from uploaded files. Install it via **Settings → Community Nodes**.
