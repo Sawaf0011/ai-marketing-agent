@@ -1,4 +1,4 @@
-# Genie AI — Marketing Campaign Agent
+# Marketing Campaign Agent
 
 An n8n AI agent workflow that turns internal product documents into a full marketing campaign in minutes.
 
